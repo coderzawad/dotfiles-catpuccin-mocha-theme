@@ -62,7 +62,7 @@ exec swayidle -w \
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+ctrl+l exec hyprlock
-    bindsym $mod+Shift+n exec swaync-client -t -sw
+    bindsym $mod+Shift+m exec swaync-client -t -sw
     bindsym $mod+Shift+f exec firefox
     # Kill focused window
     bindsym $mod+q kill
